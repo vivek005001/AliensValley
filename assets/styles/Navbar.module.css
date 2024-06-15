@@ -1,0 +1,22 @@
+
+/* styles/globals.css or styles/Navbar.module.css */
+.hover-line {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-line::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px; /* Adjust as needed */
+    width: 0; /* Start width */
+    height: 2px; /* Line height */
+    background: #000; /* Line color */
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.hover-line:hover::after {
+    width: 100%; /* Full width on hover */
+}

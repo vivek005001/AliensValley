@@ -1,0 +1,112 @@
+[
+  {
+      "productID": "1",
+      "name": "Classic Blue Jeans",
+      "type": "Denim",
+      "price": 59.99,
+      "description": "High-quality denim jeans with a classic blue wash.",
+      "images": ["/jeans1.jpg", "/jeans2.jpg", "/jeans3.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+      "productID": "2",
+      "name": "Chino Pants",
+      "type": "Chino",
+      "price": 49.99,
+      "description": "Comfortable and versatile chino pants suitable for casual or business casual attire.",
+      "images": ["a1.jpg", "a2.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-02T00:00:00.000Z",
+      "updatedAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+      "productID": "3",
+      "name": "Slim Fit Trousers",
+      "type": "Formal",
+      "price": 79.99,
+      "description": "Stylish slim fit trousers ideal for formal occasions.",
+      "images": ["/slimfit1.jpg", "/slimfit2.jpg"],
+      "is_featured": true,
+      "createdAt": "2024-01-03T00:00:00.000Z",
+      "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+      "productID": "4",
+      "name": "Cargo Pants",
+      "type": "Casual",
+      "price": 39.99,
+      "description": "Durable cargo pants with multiple pockets, perfect for outdoor activities.",
+      "images": ["/cargo1.jpg", "/cargo2.jpg", "/cargo3.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-04T00:00:00.000Z",
+      "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+      "productID": "5",
+      "name": "Yoga Pants",
+      "type": "Activewear",
+      "price": 29.99,
+      "description": "Comfortable and stretchy yoga pants suitable for workouts and yoga sessions.",
+      "images": ["/yoga1.jpg", "/yoga2.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-05T00:00:00.000Z",
+      "updatedAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+      "productID": "6",
+      "name": "Track Pants",
+      "type": "Sportswear",
+      "price": 34.99,
+      "description": "Lightweight track pants with moisture-wicking fabric for athletic performance.",
+      "images": ["/track1.jpg", "/track2.jpg"],
+      "is_featured": true,
+      "createdAt": "2024-01-06T00:00:00.000Z",
+      "updatedAt": "2024-01-06T00:00:00.000Z"
+  },
+  {
+      "productID": "7",
+      "name": "Linen Trousers",
+      "type": "Casual",
+      "price": 54.99,
+      "description": "Breathable linen trousers, perfect for summer wear.",
+      "images": ["/linen1.jpg", "/linen2.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-07T00:00:00.000Z",
+      "updatedAt": "2024-01-07T00:00:00.000Z"
+  },
+  {
+      "productID": "8",
+      "name": "Hiking Pants",
+      "type": "Outdoor",
+      "price": 69.99,
+      "description": "Durable hiking pants designed for rugged terrain and outdoor adventures.",
+      "images": ["/hiking1.jpg", "/hiking2.jpg"],
+      "is_featured": true,
+      "createdAt": "2024-01-08T00:00:00.000Z",
+      "updatedAt": "2024-01-08T00:00:00.000Z"
+  },
+  {
+      "productID": "9",
+      "name": "Pleated Trousers",
+      "type": "Formal",
+      "price": 89.99,
+      "description": "Elegant pleated trousers suitable for formal events.",
+      "images": ["/pleated1.jpg", "/pleated2.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-09T00:00:00.000Z",
+      "updatedAt": "2024-01-09T00:00:00.000Z"
+  },
+  {
+      "productID": "10",
+      "name": "Joggers",
+      "type": "Athleisure",
+      "price": 39.99,
+      "description": "Comfortable joggers for everyday wear and light exercise.",
+      "images": ["/joggers1.jpg", "/joggers2.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-10T00:00:00.000Z",
+      "updatedAt": "2024-01-10T00:00:00.000Z"
+  }
+]

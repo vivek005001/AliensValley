@@ -13,6 +13,7 @@ const ProductHeaderImage = ({ image }) => {
           sizes="100vw"
           priority={true}
         />
+        
       </div>
     </div>
   </section>

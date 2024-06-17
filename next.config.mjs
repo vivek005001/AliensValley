@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    webpack5: true,
+    reactStrictMode: true,
 
     images: {
-        domains: ['example.com'],
+        domains: ['lh3.googleusercontent.com','example.com'],
     },
 };
 

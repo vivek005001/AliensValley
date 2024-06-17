@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import ProductHeaderImage from './ProductHeaderImage';
 
 const ProductCard = ({ product }) => {
   // Ensure price is a number and not undefined
@@ -7,17 +8,20 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="border rounded-md shadow-md p-4">
-      <Link href={`/products/${product._id}`}>
+      <Link href={`/images/products/${product.productID}`}>
         
-          <div className="relative h-48">
-            <Image
+          <div className="relative w-96">
+            {/* <Image
               src={product.images[0]} 
               alt={product.name}
               layout="fill"
               objectFit="cover"
               className="rounded-md"
-            />
+            /> */}
+                    <ProductHeaderImage image={product.images[0]} />
+
           </div>
+          
           <h2 className="mt-2 text-lg font-semibold">{product.name}</h2>
           <p className="mt-1 text-sm text-gray-600">{product.description}</p>
           <div className="mt-4 flex justify-between items-center">
